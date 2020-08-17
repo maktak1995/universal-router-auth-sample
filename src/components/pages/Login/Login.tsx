@@ -4,7 +4,7 @@ import * as firebase from "firebase";
 import { history } from "../../../routing/history";
 
 const config = {
-  apiKey: "AIzaSyC35I2RS-ya8tLBQLxnE3lJpM95Gt_ycl0",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "universal-router-auth-sample.firebaseapp.com",
   databaseURL: "https://universal-router-auth-sample.firebaseio.com",
   projectId: "universal-router-auth-sample",
